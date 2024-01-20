@@ -17,7 +17,7 @@ variable "ami_id" {
 variable "bucketname" {
   description = "The name of the S3 bucket to create"
   type        = string
-  default     = "naren-s3-2024-Jan"
+  default     = "naren-s3-2024-jan"
 }
 
 
