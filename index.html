@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Gateway by NN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .divScroll {
+    overflow:scroll;
+    height:100px;
+    width:200px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div class="left">
+            <u><h4>BILLING ADDRESS <h5>(designed by N Narendra)</h5></h4></u>
+            <form>
+                Full name
+                <input type="text" placeholder="Enter your Name">
+                Email
+                <input type="text" placeholder="Enter your email id">
+                Address
+                <input type="text" placeholder="Enter your Address">
+                City
+                <input type="text" placeholder="Enter your City Name">
+                <div id="zip"> <label> State
+                    <select>
+                        <option>Choose State</option>
+                        <option>Andhra Pradesh</option>
+                        <option>TamilNadu</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                    </select>
+                </label></div>
+               <label><br>
+                Zip Code
+                <input type="number" placeholder="zip Code">
+               </label>
+            </form>
+        </div>
+        <div class="right">
+            <u><h4>PAYMENT DETAILS <h5>(designed by N Narendra)</h5></h4></u>
+            <form>
+                Accepted Payment Methods <br>
+                <img src="card1.jpg" width="20%" class="img">
+                <img src="card2.jpg" width="17%" class="img">
+                <br>             
+                Card Number
+                <input type="text" placeholder="Enter your Card Number">
+                CVV
+                <input type="text" placeholder="Enter your CVV" class="cvv">
+        
+                <div id="zip"> <label> Expiry Year
+                    <select>
+                        <option>Choose Year</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                        <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                    </select><br>
+                    <div id="exp-month"><label>
+                    Expiry Month
+                    <select>
+                        <option>Choose Month</option>
+                        <option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option>
+                        <option>June</option><option>July</option><option>August</option><option>Sep</option><option>oct</option>
+                        <option>Nov</option><option>Dec</option>
+                    </select>
+                    </label></div>
+                </label></div>
+                <div id="zip"> <label> Net Banking
+                    <select>
+                        <option>Choose Bank</option>
+                        <option>Andhra Bank</option>
+                        <option>Bank of india</option>
+                        <option>Canara Bank</option>
+                        <option>HDFC Bank</option>
+                        <option>Punjab National Bank</option>
+                        <option>State Bank of India</option>
+                    </select>
+                </label></div>
+            </form>
+            <input type="submit" value="PROCEED TO PAY">
+        </div> 
+    </div>
+</header>
+</body>
+</html>
