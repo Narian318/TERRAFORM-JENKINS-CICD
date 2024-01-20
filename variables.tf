@@ -20,8 +20,4 @@ variable "bucketname" {
   default     = "mrcloudbook-777-ajaykumar-yegireddi"
 }
 
-variable "acl" {
-  description = "The ACL (Access Control List) for the S3 bucket"
-  type        = string
-  default     = "public"
-}
+
