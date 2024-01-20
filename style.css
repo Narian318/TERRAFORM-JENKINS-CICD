@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    min-height: 100vh;
+    background: #7C00FF;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background: lightblue;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
+}
+.left{
+    flex-basis: 50%
+}
+.right{
+    flex-basis: 50%
+}
+form{
+    padding: 1rem;
+}
+form input[type="text"]{
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+    margin: 0.5rem 0;
+    outline: none;
+    border-radius: 25%;
+}
+#zip{
+    display: flex;
+    margin-top: 0.5rem;
+    width: 80%
+}
+#zip select{
+    padding: 0.3rem 0.5rem;
+    outline: none;
+}
+#zip input[type="number"]{
+    padding: 0.3rem 0.5rem;
+    outline: none;
+    width: 100%;
+}
+#exp-month{
+    display: flex;
+    margin-top: 0.5rem;
+    width: 50%
+}
+#exp-month select{
+    padding: 0.3rem 0.5rem;
+    outline: none;
+}
+.cvv{
+    background: yellow;
+    border-radius: 25%;
+}
+input[type="submit"]{
+    width: 90%;
+    padding: 0.4rem 1rem;
+    background: #7C00FF;
+    color: white;
+    outline: none;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+.img{
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background: green;
+}
+
+@media only screen and (max-width: 770px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
+body{
+    overflow-x: hidden;
+}
